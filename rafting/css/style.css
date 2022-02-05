@@ -6,6 +6,7 @@
 body{
     background-color: rgba(255, 255, 255, 1);
     font-size: 16px;
+    font-family: 'Gilda Display', serif;
 }
 
 header, footer {
@@ -38,4 +39,16 @@ color: rgb(210, 216, 218);
 display: flex;
 align-items: center;
 justify-content: center;
+}
+
+div.social {
+    margin: 0.25rem;
+}
+
+.text1 img {
+    margin: 0.5rem;
+    border: 1px solid rgba(26, 15, 5, 1);
+    padding: 0.25rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(26, 15, 5, 1);
 }

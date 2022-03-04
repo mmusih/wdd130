@@ -14,7 +14,7 @@ body {
     background-color: #c59526;
     font-size: 20px;
     line-height: 1.5rem;
-    font-family: 'Gilda Display', serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: content-box;
     width: 100%;
     margin: 0;
@@ -60,6 +60,7 @@ header {
 h1 {
     color: #d1471a;
     justify-content: center;
+    font-weight: 500;
 }
 
 h2 {

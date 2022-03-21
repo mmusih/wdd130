@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: rgb(7, 163, 163);
+    background-color: #07a3a3;
     font-size: 20px;
     line-height: 1.5rem;
     font-family: 'Gilda Display', serif;
@@ -146,7 +146,7 @@ div.social {
     cursor: pointer;
 }
 
-.hero a:hover {
+.hero a:hover, .prices a:hover {
     color: #ee0e0e;
     background-color: black;
     font-weight: 700;
@@ -193,4 +193,57 @@ div.social {
 
 .testimonials {
     text-align: center;
+}
+
+.prices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.prc1 {
+    background: radial-gradient(#cd8032, black);
+    border: 1px solid #cd8032;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 0 30px black;
+    opacity: 0.8;
+    color: white;
+    border-radius: 2rem;
+}
+
+.prc2 {
+    /* background-color: rgb(230, 229, 227); */
+    background: radial-gradient(#D3D6D8, black);
+    border: 1px solid #E5E4E2;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 0 30px black;
+    opacity: 0.8;
+    color: white;
+    border-radius: 2rem;
+}
+
+.prc3 {
+    background: radial-gradient(#FFD700, black);
+    border: 1px solid #FFD700;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 0 30px black;
+    opacity: 0.8;
+    color: white;
+    border-radius: 2rem;
+}
+
+.prices {
+    background-color: #07a3a3;
+    padding: 5px;
+}
+
+.prices h3 {
+    text-align: center;
+}
+
+.prices p {
+    color: rgba(255, 255, 255, 1);
 }
